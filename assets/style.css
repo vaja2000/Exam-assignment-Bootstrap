@@ -1,0 +1,141 @@
+.box header{
+    transition: .25s linear;
+}
+
+.box header:hover{
+    box-shadow: 0px 0px 15px 10px white;
+}
+
+.Email{
+    border: none;
+    background-color: rgb(217, 217, 217);
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.Password{
+    border: none;
+    background-color: rgb(217, 217, 217);
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.row div{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(217, 217, 217);
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    transition: color .25s linear;
+}
+
+.accessor-card header{
+    transition: .25s linear;
+}
+.accessor-card header:hover{
+    box-shadow: 0px 0px 14px 9px;
+}
+
+.icone{
+    height: 5rem;
+    width: 5rem;
+    border: none;
+    border-radius: 3rem;
+    transition: .35s linear;
+    margin-left: 5px;
+}
+.icone:hover{
+    box-shadow: 0px 0px 5px 3px white;
+}
+.fa{
+    font-size: 40px;
+    color: white;
+    transition: .25s linear;
+}
+.fa:hover{
+    font-size: 50px;
+}
+
+#contact{
+    position: relative;
+    animation-name: contact;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes contact{
+    0%{left: -100rem;}
+    100%{left: 0;}
+}
+
+#location{
+    position: relative;
+    animation-name: location;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes location{
+    0%{right: -100rem;}
+    100%{right: 0;}
+}
+
+#contact-information{
+    position: relative;
+    animation-name: information;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes information{
+    0%{top: -5rem;}
+    100%{top: 0;}
+}
+
+#accessor{
+    position: relative;
+    animation-name: accessor;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes  accessor{
+    0%{left: -100rem;}
+    100%{left: 0;}
+}
+
+#production{
+    position: relative;
+    animation-name: production;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes production{
+    0%{right: -100rem;}
+    100%{right: 0;}
+}
+
+#left{
+    position: relative;
+    animation-name: left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes left{
+    0%{left: -100rem;}
+    100%{left: 0;}
+}
+
+#right{
+    position: relative;
+    animation-name: right;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes right{
+    0%{right: -100rem;}
+    100%{right: 0;}
+}
+}
